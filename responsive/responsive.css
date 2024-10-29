@@ -1,0 +1,160 @@
+@media screen  and (max-width: 480px){
+.nav{
+    padding:1rem 1.5rem;
+}
+.nav h2{
+    font-size:1.4rem;
+}
+#menu-icon{
+    display:block;
+    width: 30px;
+    height: 30px;
+    top:14px;
+    right: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+#menu-icon .hamberger{
+    display: block;
+    margin:5px 4px;
+    border: 1px solid #fff;
+}
+#item {
+    display:block;
+    text-align: center;
+    flex-direction:column;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 1);
+    z-index: 1000;
+    margin-top: 3.2rem;
+}
+
+#item li{
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid #fff;
+    margin:4rem 2.5rem;
+}
+#item li {
+    font-size:1.4rem;
+}
+.back{
+    background-position: center;
+}
+.mid-container{
+    width: 75%; 
+}
+.mid-container p{ 
+    font-size:1.1rem;
+    margin:1.4rem;
+}
+.mid-container h2{
+    font-size:1.5rem;
+}
+.mid-container .btn a.simple{
+    padding:0.3rem 0.6rem;
+    font-size: 0.8rem;
+}
+.mid-container a.border{
+    font-size: 0.8rem;
+ 
+}
+
+.detail{
+    justify-content:center;
+    flex-direction:column;
+    padding:2rem 1rem;
+}
+.detail .one{
+    width: 90%;
+    flex-direction:column;
+}
+.detail .one h6{
+    padding-bottom:1.3rem;
+}
+.detail .one a{
+    padding:1rem 0.1rem;
+    letter-spacing: 0.03rem;
+}
+.detail .two{
+    width:90%;
+    margin-top: 0.7rem;
+    padding-left:1.5rem;
+}
+
+.detail .two h3{
+    font-size: 1rem;
+    padding-bottom:1.1 rem;
+}
+.detail .two h5{
+    font-size: 2rem;
+}
+.detail .two p{
+    font-size: 1.3rem;
+}
+.trainer{
+    justify-content:center;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+.trainer .about{
+    width:90%;
+}
+
+.trainer .people{
+    width:90%;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.trainer .people .team1{
+    width: 100%;
+    padding-bottom:0.9rem;
+}
+.name h4{
+    font-size: 1.2rem;
+}
+.trainer .name  p{
+    color:#212529;
+    font-size: 1.5rem;
+    padding: 0 11px;
+}
+/*قسمت جدید */
+.header-text{
+    flex-direction: column;
+}
+
+
+.header-text h1{
+    font-size: 1.9rem;
+}
+
+.box{
+    justify-content: center; 
+    flex-direction: column; 
+}
+.card{
+    width:85%;
+    margin: 0.7rem;
+}
+.price{
+    top: 290px;
+}
+
+
+/********section4*********/
+
+.container4{
+    justify-content: center;
+}
+.form{
+    width: 95%;
+    justify-content: center;
+}
+.form h2{
+    font-size: 1.7rem;
+}
+}
